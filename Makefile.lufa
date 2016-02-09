@@ -63,7 +63,7 @@ HARDWARE_VARIANT = KINESIS
 
 # By default, the Ergodox doesn't have any external eeprom. Unless one is added,
 # disable external storage.
-HAS_EXTERNAL_STORAGE = 0
+HAS_EXTERNAL_STORAGE = 1
 
 # MCU name
 MCU = atmega32u4
@@ -370,7 +370,7 @@ LDFLAGS += -Wl,--section-start=.eeexternal=00850000
 # Type: avrdude -c ?
 # to get a full listing.
 #
-AVRDUDE_PROGRAMMER = jtagmkII
+AVRDUDE_PROGRAMMER = tinyusb
 
 # com1 = serial port. Use lpt1 to connect to parallel port.
 AVRDUDE_PORT = usb
