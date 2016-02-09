@@ -335,8 +335,8 @@ extern const hid_keycode logical_to_hid_map_default[NUM_LOGICAL_KEYS] PROGMEM;
 #define USB_PRODUCT_ID 0x6028 // ErgoDox ergonomic keyboard
 
 #define USB_MANUFACTURER_STRING L"andreae.gen.nz"
-#define USB_PRODUCT_STRING L"Programmable USB Keyboard"
-#define USB_SERIAL_NUMBER_STRING L"andreae.gen.nz:ergodox"
+#define USB_PRODUCT_STRING L"Kinesis Advantage"
+#define USB_SERIAL_NUMBER_STRING L"andreae.gen.nz:kinesis"
 
 #define MATRIX_PORT PORTF
 #define MATRIX_DDR  DDRF
